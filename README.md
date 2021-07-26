@@ -1,16 +1,10 @@
-A library for Dart developers.
+# search_me_up
+
+Simple Search Ranking to make it easy to write ranked search algorithms.
 
 ## Usage
 
-A simple usage example:
-
-```dart
-import 'package:search_me_up/search_me_up.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
+Check the (example page)[https://pub.dev/packages/search_me_up/example]
 
 ## Features and bugs
 

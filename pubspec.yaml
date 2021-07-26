@@ -1,6 +1,6 @@
 name: search_me_up
-description: A starting point for Dart libraries or applications.
-version: 0.1.0
+description: Simple Search Ranking to make it easy to write ranked search algorithms.
+version: 0.1.0+1
 homepage: https://github.com/VHCBlade/search_me_up
 
 environment:
