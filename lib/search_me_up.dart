@@ -5,4 +5,5 @@ library search_me_up;
 
 export 'src/text_search.dart';
 export 'src/text_converter.dart';
+export 'src/sorted_search_list.dart';
 export 'src/search_me_up.dart';
