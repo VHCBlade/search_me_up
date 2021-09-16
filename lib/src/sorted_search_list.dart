@@ -7,7 +7,13 @@ class SortedSearchList<T, S> {
 
   SortedSearchList({required this.comparator, required this.converter});
 
-  /// Removes the values in the [list] and generates a new one in the correct order based on [comparator] with the given [values].
+  /// Removes the content in the [list] and then places the sorted [values] inside instead.
+  void generateList(Iterable<T> values) {
+    list.clear();
+    sortThenAdd(values);
+  }
+
+  /// Removes the content in the [list] and generates a new one in the correct order based on [comparator] with the given [values].
   ///
   /// If [searchTerm] is provided, then a [rankedSearch] with the given [searchMeUp] is automatically triggered. The order will be based on the ranking first, and then the order based on [comparator]
   void generateSearchList({
